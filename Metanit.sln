@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.ProgramStructure", "2.Pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.VariablesAndConstants", "2.VariablesAndConstants\2.VariablesAndConstants.csproj", "{9C978432-A93D-4008-9D18-B205B7564898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Literals", "3.Literals\3.Literals.csproj", "{25E51C75-FF07-478D-AC8D-ADFD01489579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Literals", "3.Literals\3.Literals.csproj", "{25E51C75-FF07-478D-AC8D-ADFD01489579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.DataTypes", "4.DataTypes\4.DataTypes.csproj", "{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.DataTypes", "4.DataTypes\4.DataTypes.csproj", "{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ConsoleInput-Output", "5.ConsoleInput-Output\5.ConsoleInput-Output.csproj", "{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{9C978432-A93D-4008-9D18-B205B7564898} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{25E51C75-FF07-478D-AC8D-ADFD01489579} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{FFE551DF-6380-4BA6-AA35-CA2FBA4916F0} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{2A7E0C68-4A1D-4384-9F4F-02F29CA2CFD5} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
