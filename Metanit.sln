@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.BasicDataTypeConversions"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ConditionalExpressions", "10.ConditionalExpressions\10.ConditionalExpressions.csproj", "{29C45B98-442B-4179-A4C1-36C8225451B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ConstructIfElse", "11.ConstructIfElse\11.ConstructIfElse.csproj", "{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{29C45B98-442B-4179-A4C1-36C8225451B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C45B98-442B-4179-A4C1-36C8225451B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C45B98-442B-4179-A4C1-36C8225451B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{D52974DB-13EC-44C0-ADD0-8673B590B334} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{B0958520-8C3D-4875-ADDC-55BB9888C9FD} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{29C45B98-442B-4179-A4C1-36C8225451B8} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{9693605E-1E41-4BC0-9BE0-DCC158DFE7C1} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
