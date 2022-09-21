@@ -93,3 +93,53 @@ foreach (var c in "Жужулица")
 Console.WriteLine("\n--------");
 Console.WriteLine("Операторы continue и break");
 Console.WriteLine("--------\n");
+/*
+ * Иногда возникает ситуация, когда требуется выйти из цикла, 
+ * не дожидаясь его завершения. В этом случае мы можем воспользоваться оператором break.
+ */
+for (int i = 0; i < 9; i++)
+{
+    if (i == 5)
+        break;
+    Console.WriteLine(i);
+}
+
+// Хотя в условии цикла сказано, что цикл будет выполняться,
+// пока счетчик i не достигнет значения 9, в реальности цикл сработает 5 раз.
+// Так как при достижении счетчиком i значения 5, сработает оператор break, и цикл завершится.
+Console.WriteLine("\n\n");
+/*  А что если мы хотим, чтобы при проверке цикл не завершался, 
+ *  а просто пропускал текущую итерацию. 
+ *  Для этого мы можем воспользоваться оператором continue
+ */
+
+for (int i = 0; i < 9; i++)
+{
+    if (i == 5)
+        continue;
+    Console.WriteLine(i);
+}
+Console.WriteLine("\n\n");
+Console.WriteLine("\n--------");
+Console.WriteLine("Вложенные циклы");
+Console.WriteLine("--------\n");
+// Одни циклы могут быть вложенными в другие.
+
+for (int i = 1; i < 10; i++)
+{
+    for (int j = 1; j < 10; j++)
+    {
+        Console.Write($"{i * j} \t");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("\n\n");
+for (int i = 1; i < 3; i++)
+{
+    for (int j = 1; j < 3; j++)
+    {
+        Console.Write($"{i * j} \t");
+    }
+    Console.WriteLine();
+}
