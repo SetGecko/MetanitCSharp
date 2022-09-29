@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.MethodParameters", "16.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.ReturningValueAndReturnStatement", "17.ReturningValueAndReturnStatement\17.ReturningValueAndReturnStatement.csproj", "{C89ABB24-40A9-40F7-BACD-AF2F0B75B36A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.PassingParametersByReferenceAndValue", "18.PassingParametersByReferenceAndValue\18.PassingParametersByReferenceAndValue.csproj", "{4E975CDB-AE48-453F-9497-943AFA1826BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{C89ABB24-40A9-40F7-BACD-AF2F0B75B36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89ABB24-40A9-40F7-BACD-AF2F0B75B36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89ABB24-40A9-40F7-BACD-AF2F0B75B36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E975CDB-AE48-453F-9497-943AFA1826BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E975CDB-AE48-453F-9497-943AFA1826BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E975CDB-AE48-453F-9497-943AFA1826BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E975CDB-AE48-453F-9497-943AFA1826BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,6 +237,7 @@ Global
 		{EC978F47-2C8A-4B66-999B-F4ED299CE7B5} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{DBB3253E-FA36-4EBC-A79C-EA12C188C433} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{C89ABB24-40A9-40F7-BACD-AF2F0B75B36A} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{4E975CDB-AE48-453F-9497-943AFA1826BC} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
