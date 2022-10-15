@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.RecursiveFunctions", "20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.LocalFunctions", "21.LocalFunctions\21.LocalFunctions.csproj", "{3527D96A-989C-4EA2-B62D-056A5B02696A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.SwitchConstructions", "22.SwitchConstructions\22.SwitchConstructions.csproj", "{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.SwitchConstructions", "22.SwitchConstructions\22.SwitchConstructions.csproj", "{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.Enums", "23.Enums\23.Enums.csproj", "{B19F90D6-B39F-4812-87FE-A9A48A655EBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +272,7 @@ Global
 		{8E3EEBAA-DB6A-42FF-92A3-305728C0BC63} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{3527D96A-989C-4EA2-B62D-056A5B02696A} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{B19F90D6-B39F-4812-87FE-A9A48A655EBA} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
