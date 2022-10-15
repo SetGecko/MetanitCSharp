@@ -22,13 +22,13 @@ void PrintMessage(DayTime dayTime)
             break;
     }
 }
-
+Console.WriteLine("----");
 
 DoOperation(10, 5, Operation.Add);          // 15
 DoOperation(10, 5, Operation.Substract);     // 5
 DoOperation(10, 5, Operation.Multiply);     // 50
 DoOperation(10, 5, Operation.Divide);       // 2
-
+Console.WriteLine("----");
 void DoOperation (double x, double y, Operation op)
 {
     double result = op switch
@@ -42,7 +42,20 @@ void DoOperation (double x, double y, Operation op)
 
 }
 
+DayTime now2 = DayTime.Morning;
 
+Console.WriteLine((int)now2);  // 0
+Console.WriteLine((int)DayTime.Night); // 3
+
+
+
+enum Time: byte
+{
+    Morning,
+    Afternoon,
+    Evening,
+    Night
+}
 enum DayTime
 {
     Morning,
