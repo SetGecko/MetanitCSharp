@@ -23,6 +23,26 @@ void PrintMessage(DayTime dayTime)
     }
 }
 
+
+DoOperation(10, 5, Operation.Add);          // 15
+DoOperation(10, 5, Operation.Substract);     // 5
+DoOperation(10, 5, Operation.Multiply);     // 50
+DoOperation(10, 5, Operation.Divide);       // 2
+
+void DoOperation (double x, double y, Operation op)
+{
+    double result = op switch
+    {
+        Operation.Add => x + y,
+        Operation.Substract => x - y,
+        Operation.Multiply => x * y,
+        Operation.Divide => x / y,
+    };
+    Console.WriteLine(result);
+
+}
+
+
 enum DayTime
 {
     Morning,
@@ -30,10 +50,6 @@ enum DayTime
     Evening,
     Night
 }
-
-// Console.WriteLine();
-
-
 
 
 enum Operation
