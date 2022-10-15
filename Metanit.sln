@@ -81,6 +81,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.SwitchConstructions", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.Enums", "23.Enums\23.Enums.csproj", "{B19F90D6-B39F-4812-87FE-A9A48A655EBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3", "Chapter 3", "{11D03781-BF97-4118-9AB5-39C606F7BE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ClassesAndObjects", "1.ClassesAndObjects\1.ClassesAndObjects.csproj", "{E6534B56-87DC-45C5-8D31-2713FB542ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +235,10 @@ Global
 		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B19F90D6-B39F-4812-87FE-A9A48A655EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6534B56-87DC-45C5-8D31-2713FB542ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6534B56-87DC-45C5-8D31-2713FB542ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6534B56-87DC-45C5-8D31-2713FB542ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6534B56-87DC-45C5-8D31-2713FB542ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -273,6 +281,7 @@ Global
 		{3527D96A-989C-4EA2-B62D-056A5B02696A} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{B19F90D6-B39F-4812-87FE-A9A48A655EBA} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{E6534B56-87DC-45C5-8D31-2713FB542ED6} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
