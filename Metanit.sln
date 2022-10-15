@@ -71,11 +71,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.ReturningValueAndReturnS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18.PassingParametersByReferenceAndValue", "18.PassingParametersByReferenceAndValue\18.PassingParametersByReferenceAndValue.csproj", "{4E975CDB-AE48-453F-9497-943AFA1826BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.ParameterArrayAndParamsKeyword", "19.ParameterArrayAndParamsKeyword\19.ParameterArrayAndParamsKeyword.csproj", "{CB92C167-B053-4793-814E-A11D4CE8CD68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.ParameterArrayAndParamsKeyword", "19.ParameterArrayAndParamsKeyword\19.ParameterArrayAndParamsKeyword.csproj", "{CB92C167-B053-4793-814E-A11D4CE8CD68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.RecursiveFunctions", "20.RecursiveFunctions\20.RecursiveFunctions.csproj", "{8E3EEBAA-DB6A-42FF-92A3-305728C0BC63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.RecursiveFunctions", "20.RecursiveFunctions\20.RecursiveFunctions.csproj", "{8E3EEBAA-DB6A-42FF-92A3-305728C0BC63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.LocalFunctions", "21.LocalFunctions\21.LocalFunctions.csproj", "{3527D96A-989C-4EA2-B62D-056A5B02696A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.LocalFunctions", "21.LocalFunctions\21.LocalFunctions.csproj", "{3527D96A-989C-4EA2-B62D-056A5B02696A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.SwitchConstructions", "22.SwitchConstructions\22.SwitchConstructions.csproj", "{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{3527D96A-989C-4EA2-B62D-056A5B02696A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3527D96A-989C-4EA2-B62D-056A5B02696A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3527D96A-989C-4EA2-B62D-056A5B02696A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,6 +265,7 @@ Global
 		{CB92C167-B053-4793-814E-A11D4CE8CD68} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{8E3EEBAA-DB6A-42FF-92A3-305728C0BC63} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 		{3527D96A-989C-4EA2-B62D-056A5B02696A} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
+		{34C4E8D7-0674-4DA0-A251-31AAEFEEA41B} = {3F812B53-A61B-43C5-93BA-2F105A6F4148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
