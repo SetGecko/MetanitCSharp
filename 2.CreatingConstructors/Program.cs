@@ -10,9 +10,7 @@ class Person
 {
     public string name;
     public int age;
-    public Person() { name = "Неизвестно"; age = 18; }
-    public Person(string name) { this.name = name; age = 18; }
-    public Person(string name, int age)
+    public Person(string name = "Неизвестно", int age = 18)
     {
         this.name = name;
         this.age = age;
