@@ -10,12 +10,12 @@ class Person
 {
     public string name;
     public int age;
-    public Person() { name = "неизвестно"; age = 18; }
-    public Person(string n) { name = n; age = 18; }
-    public Person(string n, int a) { name = n; age = a; }
-
-    public void Print()
+    public Person() { name = "Неизвестно"; age = 18; }
+    public Person(string name) { this.name = name; age = 18; }
+    public Person(string name, int age)
     {
-        Console.WriteLine($"Имя {name}, возраст {age}");
+        this.name = name;
+        this.age = age;
     }
+    public void Print() => Console.WriteLine($"Имя: {name}  Возраст: {age}");
 }
