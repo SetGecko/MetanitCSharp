@@ -1,23 +1,28 @@
-﻿Person zhuzha = new Person { name = "Zhuzha", age = 6, company = {title =  "Home" } };
-// Person zhuzha = new Person { name = "Zhuzha", age = 6};
-zhuzha.Print();
+﻿Person person = new Person("Tom", 33);
+(string name, int age) = person;
+
+Console.WriteLine(name);    // Tom
+Console.WriteLine(age);     // 33
+
 class Person
 {
-    public string name;
-    public Company company;
-    public int age;
-    public Person()
+    string name;
+    int age;
+    public Person(string name, int age)
     {
-        name = "Undefined";
-        company = new Company();
-        age = 18;
+        this.name = name;
+        this.age = age;
     }
 
-    public void Print() => Console.WriteLine($"Имя {name}, Возраст {age}, Компания {company.title}");
-
+    public void Deconstruct(out string personName, out int personAge)
+    {
+        personName = name;
+        personAge = age;
+    }
 }
 
-class Company
-{
-    public string title = "Unknown";
-}
+
+
+
+
+
