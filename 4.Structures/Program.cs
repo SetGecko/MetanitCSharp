@@ -1,6 +1,8 @@
-﻿Person tom = new Person();
+﻿Person tom;
 
 tom.name = "Tom";
+tom.age = 40;
+
 tom.Print();
 
 struct Person
