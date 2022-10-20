@@ -1,6 +1,6 @@
 ﻿Person tom = new Person { name = "Tom", age = 22 };
-
-tom.Print();    // !!!! Имя:   Возраст: 0
+Person bob = tom with { name = "Bob" };
+bob.Print(); // !!!! Имя:   Возраст: 0
 
 struct Person
 {
