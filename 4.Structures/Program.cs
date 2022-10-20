@@ -1,14 +1,10 @@
-﻿Person tom = new Person();
+﻿Person tom = new Person { name = "Tom", age = 22 };
 
-tom.Print();
+tom.Print();    // !!!! Имя:   Возраст: 0
 
 struct Person
 {
-    public string name = "Tom";
-    public int age = 40;
-    public Person() { }
-    public void Print()
-    {
-        Console.WriteLine($"Имя: {name}, возраст: {age}");
-    }
+    public string name;
+    public int age;
+    public void Print() => Console.WriteLine($"Имя: {name}  Возраст: {age}");
 }
