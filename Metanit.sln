@@ -89,9 +89,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCalculator", "CreditC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.CreatingConstructors", "2.CreatingConstructors\2.CreatingConstructors.csproj", "{CE40B30F-A991-4A96-8F21-56909D57519C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ClassProgrammAndMethodMain", "3.ClassProgrammAndMethodMain\3.ClassProgrammAndMethodMain.csproj", "{CE18E6E5-BDBC-4899-8AA7-D0F64416D816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.ClassProgrammAndMethodMain", "3.ClassProgrammAndMethodMain\3.ClassProgrammAndMethodMain.csproj", "{CE18E6E5-BDBC-4899-8AA7-D0F64416D816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Structures", "4.Structures\4.Structures.csproj", "{EE64B93B-2CFA-4F4B-AEBB-866310BFC060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Structures", "4.Structures\4.Structures.csproj", "{EE64B93B-2CFA-4F4B-AEBB-866310BFC060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ValueTypesAndReferenceTypes", "5.ValueTypesAndReferenceTypes\5.ValueTypesAndReferenceTypes.csproj", "{D64863AD-8582-48C2-8CEB-DD990EDF7FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +265,10 @@ Global
 		{EE64B93B-2CFA-4F4B-AEBB-866310BFC060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE64B93B-2CFA-4F4B-AEBB-866310BFC060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE64B93B-2CFA-4F4B-AEBB-866310BFC060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64863AD-8582-48C2-8CEB-DD990EDF7FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64863AD-8582-48C2-8CEB-DD990EDF7FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64863AD-8582-48C2-8CEB-DD990EDF7FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64863AD-8582-48C2-8CEB-DD990EDF7FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +316,7 @@ Global
 		{CE40B30F-A991-4A96-8F21-56909D57519C} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{CE18E6E5-BDBC-4899-8AA7-D0F64416D816} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{EE64B93B-2CFA-4F4B-AEBB-866310BFC060} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
+		{D64863AD-8582-48C2-8CEB-DD990EDF7FE7} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
