@@ -1,20 +1,25 @@
 ﻿Person person = new Person();
 
-// Устанавливаем свойство - срабатывает блок Set
-// значение "Tom" и есть передаваемое в свойство value
-person.Name = "Tom";
-
-// Получаем значение свойства и присваиваем его переменной - срабатывает блок Get
-string personName = person.Name;
-Console.WriteLine(personName);  // Tom
+Console.WriteLine(person.Age);  // 1
+// изменяем значение свойства
+person.Age = 37;
+Console.WriteLine(person.Age);  // 37
+// пробуем передать недопустимое значение
+person.Age = -23;               // Возраст должен быть в диапазоне от 1 до 120
+Console.WriteLine(person.Age);  // 37 - возраст не изменился
 
 class Person
 {
-    private string name = "Undefined";
-
-    public string Name
+    int age = 1;
+    public int Age
     {
-        get { return name; } // возвращаем значение свойства
-        set { name = value; } //устанавливаем новое значение свойства
+        set
+        {
+            if (value < 1 || value > 120)
+                Console.WriteLine("Возраст должен быть в диапазоне от 1 до 120");
+            else
+                age = value;
+        }
+        get { return age; }
     }
 }
