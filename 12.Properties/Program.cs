@@ -1,10 +1,8 @@
-﻿Person tom = new();
+﻿Person person = new();
+//person.Name = "Bob";    //! Ошибка - после инициализации изменить значение нельзя
 
-Console.WriteLine(tom.Name);    // Tom
-Console.WriteLine(tom.Age);    // 37
-
-class Person
+Console.WriteLine(person.Name); // Undefined
+public class Person
 {
-    public string Name { get; set; } = "Tom";
-    public int Age { get; set; } = 37;
+    public string Name { get; init; } = "Undefined";
 }
