@@ -101,15 +101,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.Namespace", "7.Namespace\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.GlobalNamespaces", "8.GlobalNamespaces\8.GlobalNamespaces.csproj", "{7AAD5B8C-D228-4C9E-B852-B2B781ABE15F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.ConnectingDefaultNamespaces", "9.ConnectingDefaultNamespaces\9.ConnectingDefaultNamespaces.csproj", "{6A10AAFF-89D5-4A2E-9F68-5123DA8804C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.ConnectingDefaultNamespaces", "9.ConnectingDefaultNamespaces\9.ConnectingDefaultNamespaces.csproj", "{6A10AAFF-89D5-4A2E-9F68-5123DA8804C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.CreateAClassLibrary", "10.CreateAClassLibrary\10.CreateAClassLibrary.csproj", "{5AC3D846-D362-488A-B8AE-A859426C5C1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.CreateAClassLibrary", "10.CreateAClassLibrary\10.CreateAClassLibrary.csproj", "{5AC3D846-D362-488A-B8AE-A859426C5C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mylib", "Mylib\Mylib.csproj", "{42E8DE65-4BB5-4388-B88A-9236DAFD5CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mylib", "Mylib\Mylib.csproj", "{42E8DE65-4BB5-4388-B88A-9236DAFD5CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.AccessModifiers", "11.AccessModifiers\11.AccessModifiers.csproj", "{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.AccessModifiers", "11.AccessModifiers\11.AccessModifiers.csproj", "{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Properties", "12.Properties\12.Properties.csproj", "{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.Properties", "12.Properties\12.Properties.csproj", "{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.MethodOverloading", "13.MethodOverloading\13.MethodOverloading.csproj", "{3229C68A-D941-40E5-8C27-78AC59C40A25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -317,6 +319,10 @@ Global
 		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3229C68A-D941-40E5-8C27-78AC59C40A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3229C68A-D941-40E5-8C27-78AC59C40A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3229C68A-D941-40E5-8C27-78AC59C40A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3229C68A-D941-40E5-8C27-78AC59C40A25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -373,6 +379,7 @@ Global
 		{42E8DE65-4BB5-4388-B88A-9236DAFD5CBE} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
+		{3229C68A-D941-40E5-8C27-78AC59C40A25} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
