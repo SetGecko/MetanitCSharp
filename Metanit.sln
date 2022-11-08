@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mylib", "Mylib\Mylib.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.AccessModifiers", "11.AccessModifiers\11.AccessModifiers.csproj", "{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Properties", "12.Properties\12.Properties.csproj", "{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -311,6 +313,10 @@ Global
 		{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -366,6 +372,7 @@ Global
 		{5AC3D846-D362-488A-B8AE-A859426C5C1C} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{42E8DE65-4BB5-4388-B88A-9236DAFD5CBE} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{671DF11D-41E1-40C7-B0A1-0BD6DF2410BF} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
+		{60B4B4AB-AF85-4294-8F90-23DFE6EFD6F0} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
