@@ -1,16 +1,16 @@
-﻿Person tom = new("Tom", "Smith");
-Console.WriteLine(tom.Name);    // Tom Smith
+﻿Person tom = new("Tom");
+
+// Ошибка - set объявлен с модификатором private
+//tom.Name = "Bob";
+Console.WriteLine(tom.Name);    // Tom
 class Person
 {
-    string firstName;
-    string lastName;
+    string name = "";
     public string Name
     {
-        get { return $"{firstName} {lastName}"; }
+        get { return name; }
+
+        private set { name = value; }
     }
-    public Person(string firstName, string lastName)
-    {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    public Person(string name) => Name = name;
 }
