@@ -1,16 +1,14 @@
-﻿Person bob = new Person(68);
-Person.CheckRetirementStatus(bob);
+﻿Console.WriteLine(Person.RetirementAge);
 
 class Person
 {
-    public int Age { get; set; }
-    static int retirementAge = 65;
-    public Person(int age) => Age = age;
-    public static void CheckRetirementStatus(Person person)
+    static int retirementAge;
+    public static int RetirementAge => retirementAge;
+    static Person()
     {
-        if (person.Age >= retirementAge)
-            Console.WriteLine("Уже на пенсии");
+        if (DateTime.Now.Year == 2022)
+            retirementAge = 65;
         else
-            Console.WriteLine($"Сколько лет осталось до пенсии: {retirementAge - person.Age}");
+            retirementAge = 67;
     }
 }
