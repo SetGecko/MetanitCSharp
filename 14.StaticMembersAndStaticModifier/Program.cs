@@ -1,21 +1,24 @@
-﻿Person Tom = new Person(69);
-Tom.CheckAge();
+﻿Person bob = new(68);
+bob.СheckAge();
 
-Person Bob = new Person(35);
-Bob.CheckAge();
+Console.WriteLine(Person.RetirementAge); // 65
 
 class Person
 {
     int age;
-    public static int retirementAge = 65;
-    public Person (int age)
+    static int retirementAge = 65;
+    public static int RetirementAge
+    {
+        get { return retirementAge; }
+        set { if (value > 1 && value < 100) retirementAge = value; }
+    }
+    public Person(int age)
     {
         this.age = age;
     }
-
-    public void CheckAge()
+    public void СheckAge()
     {
-        if (age > retirementAge)
+        if (age >= retirementAge)
             Console.WriteLine("Уже на пенсии");
         else
             Console.WriteLine($"Сколько лет осталось до пенсии: {retirementAge - age}");
