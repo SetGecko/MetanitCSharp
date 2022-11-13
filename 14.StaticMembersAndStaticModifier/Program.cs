@@ -1,14 +1,11 @@
-﻿Console.WriteLine(Person.RetirementAge);
+﻿Console.WriteLine(Operations.Add(5, 4));         // 9
+Console.WriteLine(Operations.Subtract(5, 4));    // 1
+Console.WriteLine(Operations.Multiply(5, 4));    // 20
 
-class Person
+static class Operations
 {
-    static int retirementAge;
-    public static int RetirementAge => retirementAge;
-    static Person()
-    {
-        if (DateTime.Now.Year == 2022)
-            retirementAge = 65;
-        else
-            retirementAge = 67;
-    }
+    public static int Add(int x, int y) => x + y;
+    public static int Subtract(int x, int y) => x - y;
+    public static int Multiply(int x, int y) => x * y;
+
 }
