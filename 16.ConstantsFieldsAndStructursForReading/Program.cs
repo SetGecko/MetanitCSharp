@@ -1,17 +1,10 @@
-﻿Person tom = new Person("Tom");
-Console.WriteLine(tom.name);
-
-
-
-class Person
+﻿readonly struct Person
 {
-    public readonly string name = "Undefined";
-    public Person(string name)
+    public readonly string Name { get; } // указывать readonly необязательно
+    public int Age { get; } // свойство только для чтения
+    public Person(string name, int age)
     {
-        this.name = name;
-    }
-    public void  ChangeName(string otherName)
-    {
-
+        Name = name;
+        Age = age;
     }
 }
