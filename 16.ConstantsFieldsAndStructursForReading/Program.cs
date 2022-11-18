@@ -1,17 +1,17 @@
-﻿Person tom = new Person();
-tom.name = "Tom";
-tom.Print();
-
-Console.WriteLine(Person.type);
+﻿Person tom = new Person("Tom");
+Console.WriteLine(tom.name);
 
 
 
 class Person
 {
-    public const string type = "Person";
-    public string name = "Undefined";
-    public void Print()
+    public readonly string name = "Undefined";
+    public Person(string name)
     {
-        Console.WriteLine($"{type}: {name}");
+        this.name = name;
+    }
+    public void  ChangeName(string otherName)
+    {
+
     }
 }
