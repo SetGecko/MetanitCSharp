@@ -1,12 +1,13 @@
-﻿using printer = System.Console;
-using User = Person;
+﻿using static System.Console;
+using static Operation;
 
-User tom = new User("Tom");
-printer.WriteLine(tom.Name);
+WriteLine(Sum(5, 4));
+WriteLine(Subtract(5, 4));
+WriteLine(Multiply(5, 4));
 
-
-class Person
+static class Operation
 {
-    public string Name { get; set; }
-    public Person(string name) => Name = name;
+    public static int Sum(int a, int b) => a + b;
+    public static int Subtract(int a, int b) => a - b;
+    public static int Multiply(int a, int b) => a * b;
 }
