@@ -127,6 +127,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.CheckForNull", "19.Check
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.TypeAliasesAndStaticImports", "20.TypeAliasesAndStaticImports\20.TypeAliasesAndStaticImports.csproj", "{D62BC2D1-748F-4CEC-A67B-923844C1764E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 4", "Chapter 4", "{BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Inheritance", "1.Inheritance\1.Inheritance.csproj", "{F7AED131-89BE-4C85-B793-2124F175DAD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +369,10 @@ Global
 		{D62BC2D1-748F-4CEC-A67B-923844C1764E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D62BC2D1-748F-4CEC-A67B-923844C1764E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D62BC2D1-748F-4CEC-A67B-923844C1764E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AED131-89BE-4C85-B793-2124F175DAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AED131-89BE-4C85-B793-2124F175DAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AED131-89BE-4C85-B793-2124F175DAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AED131-89BE-4C85-B793-2124F175DAD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -429,6 +437,7 @@ Global
 		{ADB0EE7E-F048-44A9-8B69-0F378F7A37F3} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{C3DBB23A-A65A-4A8D-BC6E-05019F6719D9} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
 		{D62BC2D1-748F-4CEC-A67B-923844C1764E} = {11D03781-BF97-4118-9AB5-39C606F7BE0A}
+		{F7AED131-89BE-4C85-B793-2124F175DAD8} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
