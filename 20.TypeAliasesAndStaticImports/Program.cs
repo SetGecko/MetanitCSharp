@@ -1,6 +1,12 @@
 ﻿using printer = System.Console;
+using User = Person;
 
-printer.WriteLine("Жужа");
-printer.WriteLine("маленькая");
-printer.WriteLine("кошка");
+User tom = new User("Tom");
+printer.WriteLine(tom.Name);
 
+
+class Person
+{
+    public string Name { get; set; }
+    public Person(string name) => Name = name;
+}
