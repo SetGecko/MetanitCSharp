@@ -21,5 +21,8 @@ class Person
 
 class Employee : Person
 {
-
+    public void PrintName()
+    {
+        Console.WriteLine(Name);
+    }
 }
