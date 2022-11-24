@@ -1,18 +1,16 @@
-﻿Person person = new Person { Name = "Tom" };
-person.Print();   // Tom
-person = new Employee { Name = "Sam" };
-person.Print();   // Sam
+﻿Person person = new Person("Bob");
+person.Print();     // Bob
+Employee employee = new Employee("Tom", "Microsoft");
+employee.Print();   // Tom
 
 class Person
 {
-    private string _name = "";
-
-    public string Name
+    public string Name { get; set; }
+    public Person(string name)
     {
-        get { return _name;}
-        set { _name = value; }
+        Name = name;
     }
-    
+
     public void Print()
     {
         Console.WriteLine(Name);
@@ -21,8 +19,10 @@ class Person
 
 class Employee : Person
 {
-    public void PrintName()
+    public string Company { get; set; }
+    public Employee(string name, string company)
+        :base(name)
     {
-        Console.WriteLine(Name);
+        Company = company;
     }
 }
