@@ -1,28 +1,28 @@
-﻿Person person = new Person("Bob");
-person.Print();     // Bob
-Employee employee = new Employee("Tom", "Microsoft");
-employee.Print();   // Tom
+﻿Employee tom = new Employee("Tom", 22, "Microsoft");
 
 class Person
 {
-    public string Name { get; set; }
+    string name;
+    int age;
+
     public Person(string name)
     {
-        Name = name;
+        this.name = name;
+        Console.WriteLine("Person(string name)");
     }
-
-    public void Print()
+    public Person(string name, int age) : this(name)
     {
-        Console.WriteLine(Name);
+        this.age = age;
+        Console.WriteLine("Person(string name, int age)");
     }
 }
-
 class Employee : Person
 {
-    public string Company { get; set; } = "";
-    public Employee(string name, string company)
-        :base(name)
+    string company;
+
+    public Employee(string name, int age, string company) : base(name, age)
     {
-        Company = company;
+        this.company = company;
+        Console.WriteLine("Employee(string name, int age, string company)");
     }
 }
