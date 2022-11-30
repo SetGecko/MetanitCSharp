@@ -1,6 +1,13 @@
-﻿object person1 = new Employee("Tom", "Microsoft");  // от Employee к object
-object person2 = new Client("Bob", "ContosoBank");  // от Client к object
-object person3 = new Person("Sam");                 // от Person к object
+﻿// Объект Employee также представляет тип object
+object obj = new Employee("Bill", "Microsoft");
+
+// чтобы обратиться к возможностям типа Employee, приводим объект к типу Employee
+Employee employee = (Employee)obj;
+
+// объект Client также представляет тип Person
+Person person = new Client("Sam", "ContosoBank");
+// преобразование от типа Person к Client
+Client client = (Client)person;
 
 class Person
 {
