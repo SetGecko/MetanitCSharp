@@ -1,13 +1,13 @@
-﻿// Объект Employee также представляет тип object
-object obj = new Employee("Bill", "Microsoft");
-
-// чтобы обратиться к возможностям типа Employee, приводим объект к типу Employee
-Employee employee = (Employee)obj;
-
-// объект Client также представляет тип Person
-Person person = new Client("Sam", "ContosoBank");
-// преобразование от типа Person к Client
-Client client = (Client)person;
+﻿Person person = new Person("Tom");
+Employee? employee = person as Employee;
+if (employee == null)
+{
+    Console.WriteLine("Преобразование прошло неудачно");
+}
+else
+{
+    Console.WriteLine(employee.Company);
+}
 
 class Person
 {
