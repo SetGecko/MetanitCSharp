@@ -1,12 +1,11 @@
 ﻿Person person = new Person("Tom");
-Employee? employee = person as Employee;
-if (employee == null)
+if (person is Employee employee)
 {
-    Console.WriteLine("Преобразование прошло неудачно");
+    Console.WriteLine(employee.Company);
 }
 else
 {
-    Console.WriteLine(employee.Company);
+    Console.WriteLine("Преобразование не допустимо");
 }
 
 class Person
