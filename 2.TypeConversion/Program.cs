@@ -1,4 +1,8 @@
-﻿class Person
+﻿object person1 = new Employee("Tom", "Microsoft");  // от Employee к object
+object person2 = new Client("Bob", "ContosoBank");  // от Client к object
+object person3 = new Person("Sam");                 // от Person к object
+
+class Person
 {
     public string Name { get; set; }
     public Person(string name)
