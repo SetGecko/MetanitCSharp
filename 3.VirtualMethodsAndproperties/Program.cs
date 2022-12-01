@@ -19,13 +19,16 @@ class Person
 class Employee : Person
 {
     public string Company { get; set; }
+
     public Employee(string name, string company)
-        : base(name)
+            : base(name)
     {
         Company = company;
     }
+
     public override void Print()
     {
-        Console.WriteLine($"{Name} работает в {Company}");
+        base.Print();
+        Console.WriteLine($"работает в {Company}");
     }
 }
