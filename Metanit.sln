@@ -139,6 +139,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.HidingMethodsAndPropertie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.DifferenceBetweenOverridingAndHidingMethods", "5.DifferenceBetweenOverridingAndHidingMethods\5.DifferenceBetweenOverridingAndHidingMethods.csproj", "{670D5872-D64F-4858-AE84-924CBFF1CEF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.AbstractClassesAndClassMembers", "6.AbstractClassesAndClassMembers\6.AbstractClassesAndClassMembers.csproj", "{09512DF5-86BD-4E5B-924B-590438906776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -397,6 +399,10 @@ Global
 		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09512DF5-86BD-4E5B-924B-590438906776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09512DF5-86BD-4E5B-924B-590438906776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09512DF5-86BD-4E5B-924B-590438906776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09512DF5-86BD-4E5B-924B-590438906776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -466,6 +472,7 @@ Global
 		{DE357D09-AFA6-4CCD-810D-C5DA20F9914C} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 		{B168256B-E576-4719-A7C4-820D80943A3E} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 		{670D5872-D64F-4858-AE84-924CBFF1CEF8} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
+		{09512DF5-86BD-4E5B-924B-590438906776} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
