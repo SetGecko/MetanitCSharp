@@ -135,7 +135,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.TypeConversion", "2.TypeC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.VirtualMethodsAndproperties", "3.VirtualMethodsAndproperties\3.VirtualMethodsAndproperties.csproj", "{DE357D09-AFA6-4CCD-810D-C5DA20F9914C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.HidingMethodsAndProperties", "4.HidingMethodsAndProperties\4.HidingMethodsAndProperties.csproj", "{B168256B-E576-4719-A7C4-820D80943A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.HidingMethodsAndProperties", "4.HidingMethodsAndProperties\4.HidingMethodsAndProperties.csproj", "{B168256B-E576-4719-A7C4-820D80943A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.DifferenceBetweenOverridingAndHidingMethods", "5.DifferenceBetweenOverridingAndHidingMethods\5.DifferenceBetweenOverridingAndHidingMethods.csproj", "{670D5872-D64F-4858-AE84-924CBFF1CEF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -391,6 +393,10 @@ Global
 		{B168256B-E576-4719-A7C4-820D80943A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B168256B-E576-4719-A7C4-820D80943A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B168256B-E576-4719-A7C4-820D80943A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670D5872-D64F-4858-AE84-924CBFF1CEF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -459,6 +465,7 @@ Global
 		{9CE75CB5-9C8F-4D40-924B-05BB2CE0FA8E} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 		{DE357D09-AFA6-4CCD-810D-C5DA20F9914C} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 		{B168256B-E576-4719-A7C4-820D80943A3E} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
+		{670D5872-D64F-4858-AE84-924CBFF1CEF8} = {BF67334F-7EC4-4A9E-BFB9-69CA8377C83A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D13D9FA-6E75-4A62-83BE-E9C2D854EC55}
