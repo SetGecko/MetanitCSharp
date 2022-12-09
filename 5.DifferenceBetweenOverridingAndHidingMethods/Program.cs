@@ -1,5 +1,5 @@
 ﻿Person tom = new Employee("Tom", "Microsoft");
-tom.Print();        // Tom работает в Microsoft
+tom.Print();        // Tom
 
 class Person
 {
@@ -8,21 +8,22 @@ class Person
     {
         Name = name;
     }
-    public virtual void Print()
+
+    public void Print()
     {
         Console.WriteLine(Name);
     }
 }
+
 class Employee : Person
 {
     public string Company { get; set; }
     public Employee(string name, string company)
-        : base(name)
+            : base(name)
     {
         Company = company;
     }
-
-    public override void Print()
+    public new void Print()
     {
         Console.WriteLine($"{Name} работает в {Company}");
     }
