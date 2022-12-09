@@ -1,30 +1,17 @@
-﻿Person bob = new Person("Bob");
-Console.WriteLine(bob.Name);    // Bob
+﻿Console.WriteLine(Person.minAge);     // 1
+Console.WriteLine(Person.typeName);   // Person
 
-Employee tom = new Employee("Tom", "Microsoft");
-Console.WriteLine(tom.Name);    // Mr./Ms. Tom
+Console.WriteLine(Employee.minAge);     // 18
+Console.WriteLine(Employee.typeName);   // Employee
 
 class Person
 {
-    public string Name { get; set; }
-    public Person(string name)
-    {
-        Name = name;
-    }
+    public readonly static int minAge = 1;
+    public const string typeName = "Person";
 }
 class Employee : Person
 {
-    // скрываем свойство Name базового класса
-    public new string Name
-    {
-        get => $"Mr./Ms. {base.Name}";
-        set => base.Name = value;
-
-    }
-    public string Company { get; set; }
-    public Employee(string name, string company)
-                : base(name)
-    {
-        Company = company;
-    }
+    // скрываем поля и константы базового класса
+    public new readonly static int minAge = 18;
+    public new const string typeName = "Employee";
 }
