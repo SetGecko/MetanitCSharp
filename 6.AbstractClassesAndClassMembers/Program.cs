@@ -1,20 +1,33 @@
-﻿Transport car = new Car();
-Transport ship = new Ship();
-Transport aircraft = new Aircraft();
+﻿Transport car = new Car("машина");
+Transport ship = new Ship("корабль");
+Transport aircraft = new Aircraft("самолет");
 
-car.Move();
-ship.Move();
-aircraft.Move();
+car.Move();         // машина движется
+ship.Move();        // корабль движется
+aircraft.Move();    // самолет движется
 abstract class Transport
 {
-    public void Move()
+    public string Name { get; }
+    // конструктор абстрактного класса Transport
+    public Transport(string name)
     {
-        Console.WriteLine("Транспортное средство движется");
+        Name = name;
     }
+    public void Move() => Console.WriteLine($"{Name} движется");
 }
 // класс корабля
-class Ship : Transport { }
+class Ship : Transport
+{
+    // вызываем конструктор базового класса
+    public Ship(string name) : base(name) { }
+}
 // класс самолета
-class Aircraft : Transport { }
+class Aircraft : Transport
+{
+    public Aircraft(string name) : base(name) { }
+}
 // класс машины
-class Car : Transport { }
+class Car : Transport
+{
+    public Car(string name) : base(name) { }
+}
