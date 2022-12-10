@@ -1,37 +1,20 @@
-﻿Transport car = new Car();
-Transport ship = new Ship();
-Transport aircraft = new Aircraft();
-
-car.Move();         // машина едет
-ship.Move();        // корабль плывет
-aircraft.Move();    // самолет летит
-
-abstract class Transport
+﻿abstract class Transport
 {
-    public abstract void Move();
+    // абстрактное свойство для хранения скорости
+    public abstract int Speed { get; set; }
 }
 // класс корабля
 class Ship : Transport
 {
-    // мы должны реализовать все абстрактные методы и свойства базового класса
-    public override void Move()
+    int speed;
+    public override int Speed
     {
-        Console.WriteLine("Корабль плывет");
+        get => speed;
+        set => speed = value;
     }
 }
-// класс самолета
+
 class Aircraft : Transport
 {
-    public override void Move()
-    {
-        Console.WriteLine("Самолет летит");
-    }
-}
-// класс машины
-class Car : Transport
-{
-    public override void Move()
-    {
-        Console.WriteLine("Машина едет");
-    }
+    public override int Speed { get; set; }
 }
