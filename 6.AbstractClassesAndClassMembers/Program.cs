@@ -1,7 +1,20 @@
-﻿abstract class Transport
+﻿Transport car = new Car();
+Transport ship = new Ship();
+Transport aircraft = new Aircraft();
+
+car.Move();
+ship.Move();
+aircraft.Move();
+abstract class Transport
 {
     public void Move()
     {
-        Console.WriteLine("Транспортно средство движется");
+        Console.WriteLine("Транспортное средство движется");
     }
 }
+// класс корабля
+class Ship : Transport { }
+// класс самолета
+class Aircraft : Transport { }
+// класс машины
+class Car : Transport { }
