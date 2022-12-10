@@ -1,20 +1,16 @@
-﻿abstract class Transport
+﻿Transport tesla = new Auto();
+tesla.Move();           // легковая машина едет
+abstract class Transport
 {
-    // абстрактное свойство для хранения скорости
-    public abstract int Speed { get; set; }
+    public abstract void Move();
 }
-// класс корабля
-class Ship : Transport
-{
-    int speed;
-    public override int Speed
-    {
-        get => speed;
-        set => speed = value;
-    }
-}
+// класс машины
+abstract class Car : Transport { }
 
-class Aircraft : Transport
+class Auto : Car
 {
-    public override int Speed { get; set; }
+    public override void Move()
+    {
+        Console.WriteLine("легковая машина едет");
+    }
 }
